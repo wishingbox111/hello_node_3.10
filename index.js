@@ -35,6 +35,11 @@ app.get('/test', (req, res) => {
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
 
+//this code is added on top of the 3.4 files
+module.exports = app;
+
+
+
 
 
 //////below code can also run and replace the above but it is not defined as "express"
