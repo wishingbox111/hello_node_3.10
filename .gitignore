@@ -32,3 +32,5 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+node_modules # this needs to be here - for git to ignore it, docker is for docker to ignore it.
