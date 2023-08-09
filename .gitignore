@@ -33,4 +33,5 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-node_modules # this needs to be here - for git to ignore it, docker is for docker to ignore it.
+node_modules 
+# this needs to be here - for git to ignore it, docker is for docker to ignore it.

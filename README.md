@@ -11,7 +11,7 @@ CODE1:
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1" # for some reason this gives error
   },
   "author": "",
   "license": "ISC",
@@ -32,7 +32,7 @@ CODE2:
   "main": "index.js", # note this needs to be the .js in main, 
   "scripts": {
     "start": "node index.js",
-    "test": "jest --forceExit" #he changed the code to this
+    "test": "jest --forceExit" #he changed the code to this, but for me, for some reason this gives error
   },
   "author": "",
   "license": "ISC",
@@ -55,7 +55,7 @@ CODE3:
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit"
+    "test": "jest --forceExit" #he changed the code to this, but for me, for some reason this gives error
   },
   "author": "",
   "license": "ISC",
